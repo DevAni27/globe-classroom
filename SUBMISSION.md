@@ -7,8 +7,8 @@ The Globe Is Your Classroom turns an LG explanation into a conversation: predict
 ## Deliverables
 
 - SKILL.md: the required Markdown skill instructions, included in this package. Send it with the complete source package; the Markdown depends on the helper scripts and bundled assets.
-- Public source repository containing this package, installation instructions, license, source references and tests. Publish the skill directory only; never upload the Hermes profile, database, keys or connection state. Repository publication is still to be done by the contributor.
-- Approximately three-minute horizontal MP4 with a face overlay, clear audio and good lighting, as specified in the supplied contest presentation. Record the real rig interaction. Do not portray an offline test as a live demo. See DEMO_SCRIPT.md.
+- Public source repository containing this package, installation instructions, license, source references and tests. Publish the skill directory only; never upload the Hermes profile, database, keys or connection state. Public source: https://github.com/DevAni27/globe-classroom.
+- Approximately three-minute horizontal MP4 with a face overlay, clear audio and good lighting, as specified in the supplied contest presentation. Record the real rig interaction. Do not portray an offline test as a live demo.
 - Installation and live test evidence using TEST_GUIDE.md. Verify the current deadline against the organiser's newer instructions: the supplied presentation contains older dates.
 
 ## Acceptance status — 26 October 2026
@@ -21,7 +21,7 @@ Contributor-confirmed on the three-VM Liquid Galaxy rig:
 - Optional orbit playback and the updated shared visual design.
 - Packaged “End the lesson” cleanup removes the lesson's markers and panels.
 
-These are contributor-reported live observations, not observations made from the development environment. The climate reference was validated/rendered locally; a complete live climate run is not claimed. Local automated checks are detailed in VALIDATION.md. Publication and recording remain the final delivery steps; see PUBLISH.md and DEMO_SCRIPT.md. No contest ranking or measured learning improvement is claimed.
+These are contributor-reported live observations, not observations made from the development environment. The climate reference was validated/rendered locally; a complete live climate run is not claimed. Local automated checks are detailed in VALIDATION.md. The source is published. Demo recording and final submission delivery are handled separately. No contest ranking or measured learning improvement is claimed.
 
 ## Licensing and credits
 
