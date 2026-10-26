@@ -49,13 +49,13 @@ Run in Ubuntu or WSL:
 ```bash
 git clone https://github.com/DevAni27/globe-classroom.git "$HOME/globe-classroom-source"
 sudo apt install -y python3-pil
-/usr/bin/python3 "$HOME/globe-classroom-source/globe-classroom/install.py"
+/usr/bin/python3 "$HOME/globe-classroom-source/install.py"
 ```
 
 The installer uses the existing `liquid-galaxy-agent` profile. For another existing profile:
 
 ```bash
-/usr/bin/python3 "$HOME/globe-classroom-source/globe-classroom/install.py" --profile YOUR_PROFILE_NAME
+/usr/bin/python3 "$HOME/globe-classroom-source/install.py" --profile YOUR_PROFILE_NAME
 ```
 
 Updating an installed skill backs up the previous skill directory while preserving saved connection details and lesson state.
@@ -72,21 +72,20 @@ For the bundled reviewed lesson:
 
 ## Source and documentation
 
-- [Skill instructions](globe-classroom/SKILL.md)
-- [Lesson engine](globe-classroom/scripts/lesson_engine.py)
-- [Shared visual system](globe-classroom/scripts/visuals.py)
-- [Lesson plan format](globe-classroom/PLAN_FORMAT.md)
-- [Live test guide](globe-classroom/TEST_GUIDE.md)
-- [Validation record](globe-classroom/VALIDATION.md)
-- [Sources](globe-classroom/SOURCES.md)
-- [Design preview](globe-classroom/docs/design-preview.png)
+- [Skill instructions](SKILL.md)
+- [Lesson engine](scripts/lesson_engine.py)
+- [Shared visual system](scripts/visuals.py)
+- [Lesson plan format](PLAN_FORMAT.md)
+- [Live test guide](TEST_GUIDE.md)
+- [Validation record](VALIDATION.md)
+- [Sources](SOURCES.md)
+- [Design preview](docs/design-preview.png)
 
 ## Tests
 
 From the repository directory:
 
 ```bash
-cd globe-classroom
 /usr/bin/python3 -m unittest discover -s tests -v
 ```
 
@@ -94,6 +93,6 @@ The development validation includes 41 passing automated tests. Live acceptance 
 
 ## License and credits
 
-Code is licensed under [Apache-2.0](globe-classroom/LICENSE). Bundled DejaVu fonts retain their own license.
+Code is licensed under [Apache-2.0](LICENSE). Bundled DejaVu fonts retain their own license.
 
 Built for the Liquid Galaxy community and Harsh Mehta's Nara integration. Google Earth imagery and attribution remain the property of their respective providers.
