@@ -1,0 +1,314 @@
+{
+  "schema_version": 1,
+  "topic": "Mountains and rainfall",
+  "title": "Read the landscape. Follow the air.",
+  "audience": "Curious beginner",
+  "learning_goal": "Explain how moisture direction and a mountain barrier can produce contrasting rainfall, and apply the explanation at another place.",
+  "sources": [
+    {
+      "id": "ncert",
+      "title": "NCERT Climate / IIT Kanpur",
+      "url": "https://sathee.iitk.ac.in/ncert-books/class-11/geography/india-physical-environment/chapter-04-climate/",
+      "supports": "Windward Western Ghats and leeward plateau differ during the southwest monsoon."
+    },
+    {
+      "id": "metoffice",
+      "title": "Met Office",
+      "url": "https://weather.metoffice.gov.uk/learn-about/weather/types-of-weather/wind/foehn-effect",
+      "supports": "Ascent, condensation/precipitation and descending-air warming explain important mountain weather effects."
+    },
+    {
+      "id": "nasa",
+      "title": "NASA Earth Observatory",
+      "url": "https://science.nasa.gov/earth/earth-observatory/looking-down-on-the-andes-151670/",
+      "supports": "Eastern Andean slopes receive moisture from the continental interior; the western Atacama side is dry."
+    }
+  ],
+  "steps": [
+    {
+      "id": "western-ghats",
+      "kind": "prediction",
+      "title": "Two places. One mountain barrier.",
+      "place": "Western Ghats / Maharashtra",
+      "time_context": "Southwest monsoon pattern",
+      "question": "Which side usually receives more rain during southwest monsoon conditions: cyan A on the coast or amber B toward Pune? Explain why.",
+      "narration": "Look at the two rings. Cyan A is on the coast. Amber B is inland near Pune. During the southwest monsoon, which side would usually receive more rain, and why? Type your answer here in Nara.",
+      "follow_up": "What happens to moist air as it approaches and climbs over the mountains? Connect that process to your choice.",
+      "visual_note": "Real Earth terrain; rings and airflow are schematic teaching aids, not weather observations.",
+      "source_ids": [
+        "ncert",
+        "metoffice"
+      ],
+      "camera": {
+        "longitude": 73.25,
+        "latitude": 18.65,
+        "range": 310000,
+        "tilt": 45,
+        "heading": 0
+      },
+      "hints": [
+        "Moist southwest monsoon air approaches from the Arabian Sea. Which side meets it before it crosses the ridge?",
+        "Rising air cools. What could happen to water vapour as the air cools?"
+      ],
+      "rubric": {
+        "expected": "A, the incoming coastal/windward side is favoured for rainfall.",
+        "reasoning": [
+          "Moist air approaches from the Arabian Sea.",
+          "The barrier forces air upward; cooling and condensation favour precipitation on incoming slopes.",
+          "The leeward inland side is often comparatively drier."
+        ],
+        "misconceptions": [
+          "Mountains attract rain without changing the air.",
+          "The inland side always gets more because it is east.",
+          "Pune never receives rain."
+        ]
+      },
+      "explanation": [
+        {
+          "title": "First, follow the incoming moisture.",
+          "text": "Moist monsoon air arrives from the Arabian Sea and meets the Western Ghats. The terrain forces part of that flow upward.",
+          "narration": "Start at the sea. Follow the cyan schematic arrow toward the ridge. The mountains force moist air to rise.",
+          "diagram": [
+            "Moist sea air",
+            "Mountain uplift"
+          ]
+        },
+        {
+          "title": "As air rises, it cools.",
+          "text": "Cooling can bring the air to saturation. Condensation, cloud formation and precipitation favour the incoming slopes, explaining why A is often wetter.",
+          "narration": "As the air rises, it cools. Water vapour can condense into cloud droplets, and precipitation is favoured on the incoming slopes.",
+          "diagram": [
+            "Rising air",
+            "Cooling",
+            "Cloud / rain"
+          ]
+        },
+        {
+          "title": "Now look beyond the ridge.",
+          "text": "The inland side is often drier after moisture has been lost. Descending air may also warm. This is a seasonal contrast, not a claim that Pune never gets rain.",
+          "narration": "Beyond the ridge, air has often lost some moisture. As it descends it can warm. The inland side is comparatively drier. Now let us test the same idea at a different mountain range.",
+          "diagram": [
+            "Cross the ridge",
+            "Descent / warming",
+            "Drier conditions"
+          ]
+        }
+      ],
+      "features": [
+        {
+          "type": "point",
+          "label": "A: western coast",
+          "color": "cyan",
+          "coordinates": [
+            72.93,
+            18.65
+          ],
+          "radius_km": 3.8,
+          "geometry_kind": "location",
+          "show": "question",
+          "map_label": "A / western side"
+        },
+        {
+          "type": "point",
+          "label": "B: inland / Pune",
+          "color": "amber",
+          "coordinates": [
+            73.86,
+            18.52
+          ],
+          "radius_km": 3.8,
+          "geometry_kind": "location",
+          "show": "question",
+          "map_label": "B / eastern side"
+        },
+        {
+          "type": "arrow",
+          "label": "Incoming moist flow",
+          "color": "cyan",
+          "coordinates": [
+            [
+              72.5,
+              18.4,
+              1700
+            ],
+            [
+              72.9,
+              18.55,
+              2000
+            ],
+            [
+              73.35,
+              18.65,
+              4300
+            ]
+          ],
+          "geometry_kind": "schematic",
+          "show": "hint",
+          "map_label": "Moist airflow"
+        },
+        {
+          "type": "arrow",
+          "label": "Leeward descent",
+          "color": "amber",
+          "coordinates": [
+            [
+              73.35,
+              18.65,
+              4300
+            ],
+            [
+              73.55,
+              18.6,
+              3500
+            ],
+            [
+              74,
+              18.5,
+              1500
+            ]
+          ],
+          "geometry_kind": "schematic",
+          "show": 2,
+          "map_label": "Leeward airflow"
+        }
+      ]
+    },
+    {
+      "id": "northern-andes",
+      "kind": "transfer",
+      "title": "Same idea. A different direction.",
+      "place": "Central Andes / around 22 S",
+      "time_context": "Moist easterly flow example; not every season or the whole Andes",
+      "question": "Here, moisture approaches from the continental interior to the EAST. Which side faces that air: cyan A in the west, or amber B on the eastern slopes? Explain the mountain process.",
+      "narration": "We are now at the central Andes. In this example, moisture approaches from the east. Cyan A is west of the range and amber B is east. Which side faces the moist air, and what happens as that air climbs?",
+      "follow_up": "Explain why that slope is favoured. Connect the incoming direction with rising air, cooling and rainfall.",
+      "visual_note": "Central Andes example; schematic airflow and location rings. Southern Patagonia has a different prevailing-wind pattern.",
+      "source_ids": [
+        "nasa",
+        "metoffice"
+      ],
+      "camera": {
+        "longitude": -68.1,
+        "latitude": -22,
+        "range": 1050000,
+        "tilt": 45,
+        "heading": 0
+      },
+      "hints": [
+        "Start east of the ridge and trace the incoming moist flow. Which slope makes it climb first?"
+      ],
+      "rubric": {
+        "expected": "B, the eastern slopes meet the incoming moisture in this example.",
+        "reasoning": [
+          "Recognizes moisture approaches from the east in this central Andes setting.",
+          "Applies uplift/cooling and precipitation to the eastern incoming side.",
+          "Does not treat a fixed compass direction as universally wetter."
+        ],
+        "misconceptions": [
+          "The western side must always be wetter because it was correct in India.",
+          "All of the Andes share one wind direction."
+        ]
+      },
+      "explanation": [
+        {
+          "title": "B faces the incoming moisture.",
+          "text": "In this central Andes example, moisture arrives from the eastern continental interior and is lifted on the eastern slopes. The western Atacama side is much drier.",
+          "narration": "This time, B is the incoming side. Moisture arrives from the eastern continental interior and rises on the eastern slopes. The expected choice has changed, but the mechanism has not.",
+          "diagram": [
+            "Moist air from east",
+            "Eastern uplift",
+            "Rain favoured"
+          ]
+        },
+        {
+          "title": "Windward is a relationship.",
+          "text": "Ask where the moisture comes from and which slope it meets first. Do not memorize west or east. Terrain is one part of a climate system with several interacting causes.",
+          "narration": "Windward means facing the incoming wind. In Maharashtra it was the western side. Here it is the eastern side. Follow the air and use the mechanism. Do not memorize a compass direction.",
+          "diagram": [
+            "Find moisture source",
+            "Identify incoming slope",
+            "Apply the mechanism"
+          ]
+        }
+      ],
+      "features": [
+        {
+          "type": "point",
+          "label": "A: western side / northern Chile",
+          "color": "cyan",
+          "coordinates": [
+            -70,
+            -22
+          ],
+          "radius_km": 14,
+          "geometry_kind": "location",
+          "show": "question",
+          "map_label": "A / western side"
+        },
+        {
+          "type": "point",
+          "label": "B: eastern Andean foothills",
+          "color": "amber",
+          "coordinates": [
+            -64.8,
+            -22
+          ],
+          "radius_km": 14,
+          "geometry_kind": "location",
+          "show": "question",
+          "map_label": "B / eastern side"
+        },
+        {
+          "type": "arrow",
+          "label": "Moist flow from east",
+          "color": "cyan",
+          "coordinates": [
+            [
+              -63.5,
+              -22,
+              4500
+            ],
+            [
+              -65,
+              -22,
+              4500
+            ],
+            [
+              -66.5,
+              -22,
+              6500
+            ]
+          ],
+          "geometry_kind": "schematic",
+          "show": "hint",
+          "map_label": "Moist airflow"
+        },
+        {
+          "type": "arrow",
+          "label": "Crossing toward drier west",
+          "color": "amber",
+          "coordinates": [
+            [
+              -66.5,
+              -22,
+              6500
+            ],
+            [
+              -68,
+              -22,
+              7500
+            ],
+            [
+              -70,
+              -22,
+              3000
+            ]
+          ],
+          "geometry_kind": "schematic",
+          "show": 1,
+          "map_label": "Leeward airflow"
+        }
+      ]
+    }
+  ]
+}

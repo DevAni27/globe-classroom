@@ -1,0 +1,268 @@
+{
+  "schema_version": 1,
+  "topic": "Rivers and early urban societies",
+  "title": "From Water to Cities",
+  "audience": "Curious beginner",
+  "learning_goal": "Explain how managed river water can support farming and other work, then apply the chain to a different river setting.",
+  "sources": [
+    {
+      "id": "met",
+      "title": "The Met: First Cities",
+      "url": "https://www.metmuseum.org/exhibitions/listings/2003/art-of-the-first-cities",
+      "supports": "Southern Mesopotamian irrigation, damaging floods, cities and exchange networks."
+    },
+    {
+      "id": "spurlock",
+      "title": "Spurlock Museum: Mesopotamia",
+      "url": "https://www.spurlock.illinois.edu/exhibits/permanent/mso/",
+      "supports": "River water, irrigation, transport and alluvial soil."
+    },
+    {
+      "id": "ucl",
+      "title": "UCL: Egyptian farming",
+      "url": "https://www.ucl.ac.uk/museums-static/digitalegypt/foodproduction/index.html",
+      "supports": "Historical late-summer inundation and autumn planting before modern dams."
+    }
+  ],
+  "steps": [
+    {
+      "id": "mesopotamia",
+      "kind": "prediction",
+      "title": "Water is a resource. People make it useful.",
+      "place": "Southern Mesopotamia / present-day Iraq",
+      "time_context": "Urban growth c. 3500–2000 BCE; modern imagery",
+      "question": "Compare the cyan river area with the amber dry-land area. Why could river access support larger settlements? Explain a connection beyond drinking water.",
+      "narration": "We are looking at modern Iraq to discuss ancient Mesopotamia. Cyan and amber are schematic comparison areas, not ancient boundaries. How could access to river water help a settlement grow beyond its drinking-water needs?",
+      "follow_up": "How could getting water to crops change the amount of food available to a settlement?",
+      "visual_note": "Modern imagery. Coloured rings are teaching highlights, not measured boundaries. Any canal/field shapes are schematic.",
+      "source_ids": [
+        "met",
+        "spurlock"
+      ],
+      "camera": {
+        "longitude": 44.5,
+        "latitude": 32.7,
+        "range": 420000,
+        "tilt": 20,
+        "heading": 0
+      },
+      "hints": [
+        "Consider how farmers could water crops when local rain was insufficient.",
+        "Connect irrigation to extra food, then consider people doing other work."
+      ],
+      "rubric": {
+        "expected": "River water could be managed for farming; extra food could support non-farming work and exchange. Human organisation mattered too.",
+        "reasoning": [
+          "Explains water management for crops.",
+          "Connects extra food to other work or exchange.",
+          "Recognises that resources require human management."
+        ],
+        "misconceptions": [
+          "Rivers automatically create cities.",
+          "Floods are always safe and beneficial.",
+          "Drinking water alone explains urban growth."
+        ]
+      },
+      "explanation": [
+        {
+          "title": "01 / Move water to crops",
+          "text": "Farmers used canals to bring river water to fields. Floods could damage land: water management required work and coordination.",
+          "narration": "Farmers used canals to bring river water to fields. Floods could damage land: water management required work and coordination. Say next when you are ready.",
+          "diagram": [
+            "River water",
+            "Canals",
+            "Watered crops"
+          ]
+        },
+        {
+          "title": "02 / Connect food to other work",
+          "text": "Extra food could support people doing specialised work. This is a causal teaching model, not a claim that every household followed one pattern.",
+          "narration": "Extra food could support people doing specialised work. This is a causal teaching model, not a claim that every household followed one pattern. Say next when you are ready.",
+          "diagram": [
+            "Extra food",
+            "Other work",
+            "Larger settlements"
+          ]
+        },
+        {
+          "title": "03 / Resources are not destiny",
+          "text": "Waterways connected settlements. Irrigation, exchange and institutions helped cities grow; a nearby river alone was not enough.",
+          "narration": "Waterways connected settlements. Irrigation, exchange and institutions helped cities grow; a nearby river alone was not enough. Say next when you are ready.",
+          "diagram": [
+            "Waterways",
+            "Exchange",
+            "Organised settlements"
+          ]
+        }
+      ],
+      "features": [
+        {
+          "type": "point",
+          "label": "A / river access",
+          "color": "cyan",
+          "coordinates": [
+            44.4,
+            32.5
+          ],
+          "show": "question",
+          "geometry_kind": "schematic",
+          "map_label": "A / water access"
+        },
+        {
+          "type": "point",
+          "label": "B / dry-land comparison",
+          "color": "amber",
+          "coordinates": [
+            43.4,
+            32.5
+          ],
+          "show": "question",
+          "geometry_kind": "schematic",
+          "map_label": "B / dry terrain"
+        },
+        {
+          "type": "arrow",
+          "label": "Illustrative canal / not a historical trace",
+          "color": "green",
+          "coordinates": [
+            [
+              44.4,
+              32.5,
+              500
+            ],
+            [
+              44.65,
+              32.4,
+              500
+            ],
+            [
+              44.85,
+              32.2,
+              500
+            ]
+          ],
+          "show": 0,
+          "geometry_kind": "schematic",
+          "map_label": "Canal illustration"
+        },
+        {
+          "type": "polygon",
+          "label": "Illustrative field area",
+          "color": "green",
+          "coordinates": [
+            [
+              44.7,
+              32.15
+            ],
+            [
+              44.95,
+              32.15
+            ],
+            [
+              44.95,
+              32.35
+            ],
+            [
+              44.7,
+              32.35
+            ],
+            [
+              44.7,
+              32.15
+            ]
+          ],
+          "show": 0,
+          "geometry_kind": "schematic",
+          "map_label": "Fields illustration"
+        }
+      ]
+    },
+    {
+      "id": "nile-transfer",
+      "kind": "transfer",
+      "title": "Same mechanism. A different river.",
+      "place": "Nile Valley / near Luxor, Egypt",
+      "time_context": "Ancient farming before modern dams; modern imagery",
+      "question": "Apply the idea here: before modern dams, Nile floods helped set the farming calendar. If a flood brought too little water, how might that affect crops and people doing other jobs? Explain the chain.",
+      "narration": "Now apply your reasoning in Egypt. This is modern imagery, not an ancient reconstruction. Before modern dams, Nile floods helped set the farming calendar. If a flood brought too little water, how might that affect crops and people doing other jobs?",
+      "follow_up": "Start with less water for fields. What could happen to food availability and then to people who depend on farmers?",
+      "visual_note": "Modern imagery; teaching highlights only. Ancient flood discussion does not describe today’s dam-regulated cycle.",
+      "source_ids": [
+        "ucl",
+        "spurlock"
+      ],
+      "camera": {
+        "longitude": 32.4,
+        "latitude": 25.7,
+        "range": 220000,
+        "tilt": 10,
+        "heading": 0
+      },
+      "hints": [
+        "Separate the chain into water, crops, food and people.",
+        "If less food is available, consider workers who do not grow their own."
+      ],
+      "rubric": {
+        "expected": "Less floodwater could reduce crop production, leaving less food to support other work; actual outcomes depend on storage, management and other conditions.",
+        "reasoning": [
+          "Links water availability to crops.",
+          "Links food availability to non-farming people.",
+          "Applies rather than simply repeats the Mesopotamia example."
+        ],
+        "misconceptions": [
+          "Ancient and present-day flood cycles are identical.",
+          "A river guarantees sufficient food every year.",
+          "Only farmers are affected by poor harvests."
+        ]
+      },
+      "explanation": [
+        {
+          "title": "01 / A historical farming calendar",
+          "text": "Before modern dams, late-summer inundation shaped the agricultural year; planting followed in autumn. Today’s imagery cannot show that ancient annual cycle.",
+          "narration": "Before modern dams, late-summer inundation shaped the agricultural year; planting followed in autumn. Today’s imagery cannot show that ancient annual cycle. Say next when you are ready.",
+          "diagram": [
+            "Summer flood",
+            "Autumn planting",
+            "Crop growth"
+          ]
+        },
+        {
+          "title": "02 / Test the chain, not a slogan",
+          "text": "In this counterfactual, less water could mean less food for farming and non-farming households. Storage and management could change the outcome.",
+          "narration": "In this counterfactual, less water could mean less food for farming and non-farming households. Storage and management could change the outcome. Say next when you are ready.",
+          "diagram": [
+            "Less water",
+            "Possible crop loss",
+            "Pressure on food"
+          ]
+        }
+      ],
+      "features": [
+        {
+          "type": "point",
+          "label": "Observe the river corridor",
+          "color": "cyan",
+          "coordinates": [
+            32.6,
+            25.7
+          ],
+          "show": "question",
+          "geometry_kind": "schematic",
+          "map_label": "A / river corridor"
+        },
+        {
+          "type": "point",
+          "label": "Compare nearby dry terrain",
+          "color": "amber",
+          "coordinates": [
+            32.05,
+            25.7
+          ],
+          "show": "question",
+          "geometry_kind": "schematic",
+          "map_label": "B / dry terrain"
+        }
+      ]
+    }
+  ]
+}
