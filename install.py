@@ -23,7 +23,7 @@ if dest.exists():
     shutil.move(str(dest),str(backup))
     print('Previous skill backed up at:',backup)
 dest.parent.mkdir(parents=True,exist_ok=True)
-shutil.copytree(source,dest,ignore=shutil.ignore_patterns('__pycache__','*.pyc'))
+shutil.copytree(source,dest,ignore=shutil.ignore_patterns('.git','__pycache__','*.pyc'))
 print('Installed:',dest)
 print('No rig content changed. Existing lesson state and connection are preserved.')
 print('In Nara: reload globe-classroom and resume the active lesson using lesson_engine.py.')
